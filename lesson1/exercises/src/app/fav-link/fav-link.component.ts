@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FavLinkComponent implements OnInit {
 
-  favLinks: string[] = ["www.google.com", "www.amazon.com"];
+  favLinks: string[] = ["https://www.google.com", "https://www.amazon.com"];
   constructor() { }
 
   ngOnInit() {
